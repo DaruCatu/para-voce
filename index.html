@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💗 Para Você</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Tela inicial -->
+  <div id="start">
+    <div class="start-content">
+      <h1 class="start-title">💗</h1>
+      <button id="start-btn">Clique para iniciar o pedido</button>
+      <p class="start-subtitle">Prepare seu coração...</p>
+    </div>
+  </div>
+
+  <!-- Player de áudio -->
+  <audio id="player"></audio>
+
+  <!-- Progresso -->
+  <div id="progress-bar">
+    <div id="progress-fill"></div>
+  </div>
+
+  <!-- Slides -->
+  <section class="slide active" data-music="musicas/earfquake.mp3" data-theme="wave-pink">
+    <div class="slide-content">
+      <h1 class="romantic-text">De verdade, de verdade desta vez, prometo tentar ser rápido nisso</h1>
+      <p class="slide-text">Não quero gastar seu precioso tempo com isso aqui. Isto aqui é meu <span class="highlight">pedido de namoro</span>. Eu não tenho coragem de fazer isso cara a cara, mas eu tenho um sonho e criatividade, então eu queria fazer isso de uma forma criativa e divertida, que juntasse minhas duas maiores paixões: <span class="highlight-pink">você e a música</span> </p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/i think.mp4" data-theme="wave-pink">
+    <div class="slide-content">
+      <h1 class="romantic-text">Você pode estar me perguntando qual é meu motivo...</h1>
+      <p class="slide-text">Simples: apenas ter você ao meu lado e poder te chamar de amor. Eu estou me apaixonando, e dessa vez é <span class="highlight">de verdade</span>. Eu só queria saber como te dizer e achei 💕</p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/From The Start.mp3" data-theme="stars-brown">
+    <div class="slide-content">
+      <h1 class="romantic-text">Quando estou perto de você...</h1>
+      <p class="slide-text">Me sinto um pouco essa música. Eu queria que um dia você acordasse e corresse até mim ou me deixasse dizer que: quando converso com você o <span class="highlight-gold">Cupido</span> anda ao lado e atira uma flecha no meu peito, e eu soo como um louco e queria saber se você também sente isso. Confesso que me apaixonei por você <span class="highlight-gold">desde o início</span> </p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/ela vai voltar.mp3" data-theme="liquid-red">
+    <div class="slide-content">
+      <h1 class="romantic-text">O que eu vejo de tão especial em você?</h1>
+      <p class="slide-text">Alguns amigos me perguntavam o que eu via de tão especial em você para eu ter me apaixonado por você e eu sempre te descrevia igual o Chorão descreveria: <span class="highlight-red">uma mulher perfeita, forte e inteligente</span> </p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/oh Darling.mp4" data-theme="stars-cyan">
+    <div class="slide-content">
+      <h1 class="romantic-text">Eu apenas quero uma chance</h1>
+      <p class="slide-text">Não quero implorar nem parecer cachorro carente. Acredite quando eu dizer que <span class="highlight-cyan">não vou te fazer mal</span>, quero estar do seu lado </p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/see you again.mp3" data-theme="sunflower">
+    <div class="slide-content">
+      <h1 class="romantic-text">Você vive nos meus sonhos</h1>
+      <p class="slide-text">Mudou minha fantasia, ainda permaneço na realidade, você vive no meu mundo de sonhos. Toda hora que conto ovelhas, esse é o único momento no qual consigo flertar. Você existe atrás das minhas pálpebras, agora não quero mais acordar. O cupido me acertou com precisão, eu queria que você olhasse duas vezes antes de atravessar minha mente, você está sempre correndo entre meus sonhos, <span class="highlight-yellow">eu só consigo vê-la quando eu fecho meus olhos</span> </p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/bound2.mp3" data-theme="wave-red">
+    <div class="slide-content">
+      <h1 class="romantic-text">Eu fecho os olhos e deixo o mundo pintar mil quadros</h1>
+      <p class="slide-text">Sabendo que uma dessas vai ser alguém mais bonito que a Monalisa: <span class="highlight-red">você</span>. Sabe, você lembra como nos conhecemos? Eu não me lembro como nos conhecemos, mas olha, ser sincero é o primeiro passo para ter uma boa relação, e sem você eu tenho o pior momento, mas prometo que eu estou tentando ser um alguém melhor para você </p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/dontworry.mp4" data-theme="wave-red">
+    <div class="slide-content">
+      <h1 class="romantic-text">Por mim eu te daria não só o mundo...</h1>
+      <p class="slide-text">Mas o tempo também, apenas para você não se sentir preocupada </p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/Golden Hour.mp3" data-theme="stars-golden">
+    <div class="slide-content">
+      <h1 class="romantic-text">Toda vez que estou perto de você...</h1>
+      <p class="slide-text">Me sinto encantado por você, me sinto junto com o amor da minha vida. Você tem <span class="highlight-gold">glitter na pele</span>, meu mais radiante raio de luz, eu não preciso de luzes para ver você brilhar </p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/glitter.mp4" data-theme="stars-golden">
+    <div class="slide-content">
+      <h1 class="romantic-text">Você esteve na minha mente, mas como se sente?</h1>
+      <p class="slide-text">Eu estou me perdendo em pensamentos porque eu espero que a gente seja mais que amigos. Toda vez que você passa ao lado eu me sinto como glitter. <span class="highlight-gold">Você é quem eu preciso na minha vida</span> </p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/ifhy.mp3" data-theme="stars-cyan">
+    <div class="slide-content">
+      <h1 class="romantic-text">144 vezes por dia</h1>
+      <p class="slide-text">Por exemplo, 10 minutos não conseguem passar sem você passar pela minha mente e isso é <span class="highlight-cyan">1440 por dia</span>, então dá para se dizer que você passa 144 vezes pela minha mente. Eu não quero parecer desesperado, mas quando eu ouço seu nome eu não consigo parar de sorrir. Quando você vai o brilho desaparece e apenas me afundo em música. A vida sem você não tem sentido. Desculpa por ser meio assim, é que meu humor muda que nem as estações, e você é a mais bela flor da primavera </p>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <section class="slide" data-music="musicas/final.mp3" data-theme="final">
+    <div class="slide-content final-slide">
+      <h1 class="romantic-text final-title">Você aceita namorar comigo?</h1>
+      <p class="slide-text">Tudo tem um final, até uma carta de amor. Eu queria saber se você aceita e, aliás, esta música que está tocando agora é a mesma que meu pai usou para pedir minha mãe em namoro.</p>
+      <p class="final-instruction">Mande no Instagram se aceita ou não </p>
+      <div class="hearts-container">
+        <span class="heart">💕</span>
+        <span class="heart">💗</span>
+        <span class="heart">💖</span>
+        <span class="heart">💝</span>
+        <span class="heart">💘</span>
+      </div>
+    </div>
+    <canvas class="bg-canvas"></canvas>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
